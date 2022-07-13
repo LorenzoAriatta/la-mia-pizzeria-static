@@ -8,8 +8,8 @@ public class Pizza
 
     public string Image { get; set; }
 
-    public float Price { get; set; }
-    public Pizza(string name, string description, string image, float price)
+    public double Price { get; set; }
+    public Pizza(string name, string description, string image, double price)
     {
         Name = name;
         Description = description;
