@@ -3,27 +3,27 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace la_mia_pizzeria_static.Controllers
 {
-    public class PIzzaController : Controller
+    public class PizzaController : Controller
     {
-        // GET: HomeController1
+        // GET: PizzaController
         public ActionResult Index()
         {
             return View();
         }
 
-        // GET: HomeController1/Details/5
+        // GET: PizzaController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
 
-        // GET: HomeController1/Create
+        // GET: PizzaController/Create
         public ActionResult Create()
         {
             return View();
         }
 
-        // POST: HomeController1/Create
+        // POST: PizzaController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
@@ -38,13 +38,13 @@ namespace la_mia_pizzeria_static.Controllers
             }
         }
 
-        // GET: HomeController1/Edit/5
+        // GET: PizzaController/Edit/5
         public ActionResult Edit(int id)
         {
             return View();
         }
 
-        // POST: HomeController1/Edit/5
+        // POST: PizzaController/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
@@ -59,13 +59,13 @@ namespace la_mia_pizzeria_static.Controllers
             }
         }
 
-        // GET: HomeController1/Delete/5
+        // GET: PizzaController/Delete/5
         public ActionResult Delete(int id)
         {
             return View();
         }
 
-        // POST: HomeController1/Delete/5
+        // POST: PizzaController/Delete/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Delete(int id, IFormCollection collection)

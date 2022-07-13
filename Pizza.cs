@@ -9,11 +9,14 @@ public class Pizza
     public string Image { get; set; }
 
     public double Price { get; set; }
-    public Pizza(string name, string description, string image, double price)
+
+    public int ID { get; set; }
+    public Pizza(string name, string description, string image, double price, int iD)
     {
         Name = name;
         Description = description;
         Image = image;
         Price = price;
+        ID = iD;    
     }
 }

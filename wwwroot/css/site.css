@@ -29,6 +29,7 @@ body {
 .card {
     overflow:hidden;
     margin: 0 auto;
+    cursor:pointer;
 }
 
 .card:hover{
